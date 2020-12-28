@@ -1,0 +1,38 @@
+namesurname0 = "Erhan Mıstıncık"
+
+namesurname = str (input("Please enter your Name and Surname:") )   
+    
+for i in range(1,4):
+    if (i == 3):
+        print ("3rd invalid try. Please try again later!")
+        break 
+    
+    elif (namesurname0 != namesurname):
+        print (i, "st invalid try.")
+        namesurname = str (input ("Please enter your Name and Surname:") )
+    
+    else: 
+        print ("Welcome", namesurname0)
+        break
+        
+courselist = []
+for courseno in range (1,7):
+    if (courseno<4):
+        print ("You failed in class in case of taken less than 3 courses")
+        courselist.append (input ("Enter the courses taken:") )
+        
+    elif (courseno >5):
+        print ("The maximum number of courses allowed is 5!")
+        print (courselist)
+        break
+        
+    else:       
+        courselist.append (input ("Enter the courses taken:") )
+
+            
+
+            
+        
+        
+   
+              
