@@ -1,4 +1,6 @@
-namesurname0 = "Erhan Mıstıncık"
+# STUDENT MANAGAMENT
+
+namesurname0 = "Erhan MÄ±stÄ±ncÄ±k"
 
 namesurname = str (input("Please enter your Name and Surname:") )   
     
@@ -29,10 +31,15 @@ for courseno in range (1,7):
     else:       
         courselist.append (input ("Enter the courses taken:") )
 
-            
+        
+coursename = (input ("Choose the one of courses:") )            
+course = {"midterm":1, "final":2, "project":3}
 
-            
-        
-        
+course["midterm"] = input ("Please enter midterm grade:")
+course["final"] = input ("Please enter final grade:")
+course["project"] = input ("Please enter project grade:")          
+
+
+course       
    
               
